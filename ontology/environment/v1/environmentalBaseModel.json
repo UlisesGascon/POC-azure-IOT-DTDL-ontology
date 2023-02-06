@@ -1,0 +1,20 @@
+{
+    "@id": "dtmi:digitaltwins:ngsi_ld:ontology:EnvironmentBaseModel;1",
+    "@type": "Interface",
+    "displayName": "EnvironmentBaseModel",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "dateObserved",
+            "schema": "dateTime",
+            "writable": true
+        },
+        {
+            "@type": "Property",
+            "name": "sensorModel",
+            "schema": "string",
+            "writable": true
+        }
+    ]
+}
