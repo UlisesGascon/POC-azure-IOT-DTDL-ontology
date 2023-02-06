@@ -1,0 +1,54 @@
+{
+    "@id": "dtmi:digitaltwins:ngsi_ld:ontology:Device;1",
+    "@type": "Interface",
+    "displayName": "Device",
+    "contents": [
+        {
+            "@type": "Command",
+            "name": "upgrade",
+            "request": {
+              "name": "firmwareVersion",
+              "schema": "string"
+            }
+        },
+        {
+            "@type": "Property",
+            "name": "dateModified",
+            "schema": "dateTime",
+            "writable": true
+        },
+        {
+            "@type": "Property",
+            "name": "dateCreated",
+            "schema": "dateTime",
+            "writable": true
+        },
+        {
+            "@type": "Property",
+            "name": "dateObserved",
+            "schema": "dateTime",
+            "writable": true
+        },
+        {
+            "@type": "Component",
+            "name": "deviceStatus",
+            "schema": "dtmi:digitaltwins:ngsi_ld:ontology:DeviceStatus;1",
+            "displayName": "deviceStatus"
+        },
+        {
+            "@type": "Relationship",
+            "name": "refDeviceModel",
+            "minMultiplicity": 0,
+            "maxMultiplicity": 1,
+            "target": "dtmi:digitaltwins:ngsi_ld:ontology:DeviceModel;1"
+        },
+        {
+            "@type": "Component",
+            "name": "address",
+            "schema": "dtmi:digitaltwins:ngsi_ld:ontology:Address;1"
+        }
+    ],
+    "@context": [
+        "dtmi:dtdl:context;2"
+    ]
+}
