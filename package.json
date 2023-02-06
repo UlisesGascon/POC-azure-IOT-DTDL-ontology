@@ -1,0 +1,19 @@
+{
+  "name": "poc-azure-iot-dtdl-ontology",
+  "version": "1.0.0",
+  "description": "Show the power of Ontology in the Digital Twins Definition Language universe to build powerful and sustainable devices.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UlisesGascon/POC-azure-IOT-DTDL-ontology.git"
+  },
+  "author": "Ulises Gascon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UlisesGascon/POC-azure-IOT-DTDL-ontology/issues"
+  },
+  "homepage": "https://github.com/UlisesGascon/POC-azure-IOT-DTDL-ontology#readme"
+}
