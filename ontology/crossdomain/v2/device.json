@@ -1,0 +1,19 @@
+{
+    "@id": "dtmi:digitaltwins:ngsi_ld:ontology:Device;2",
+    "@type": "Interface",
+    "displayName": "Device",
+    "extends": "dtmi:digitaltwins:ngsi_ld:ontology:Device;1",
+    "contents": [
+        {
+            "@type": "Command",
+            "name": "stop"
+        },
+        {
+            "@type": "Command",
+            "name": "start"
+        }
+    ],
+    "@context": [
+        "dtmi:dtdl:context;2"
+    ]
+}
