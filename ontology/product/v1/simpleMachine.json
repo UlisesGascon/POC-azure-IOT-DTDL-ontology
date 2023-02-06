@@ -1,0 +1,8 @@
+{
+    "@id": "dtmi:digitaltwins:product:simpleMachine;1",
+    "@type": "Interface",
+    "displayName": "Simple Machine",
+    "extends": "dtmi:digitaltwins:ngsi_ld:ontology:Device;1",
+    "description": "Generic class for describing product known as Simple Machine.",
+    "@context": "dtmi:dtdl:context;2"
+}
