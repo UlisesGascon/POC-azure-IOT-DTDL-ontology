@@ -1,0 +1,16 @@
+{
+    "@id": "dtmi:digitaltwins:product:smartMachine;1",
+    "@type": "Interface",
+    "displayName": "Smart Machine",
+    "extends": "dtmi:digitaltwins:ngsi_ld:ontology:Device;2",
+    "description": "Generic class for describing product known as Smart Machine.",
+    "contents": [
+        {
+            "@type": "Component",
+            "name": "temperatureRanges",
+            "schema": "dtmi:digitaltwins:ngsi_ld:ontology:temperatureRanges;1",
+            "displayName": "Temperature Ranges"
+        }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}
