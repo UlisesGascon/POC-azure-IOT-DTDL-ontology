@@ -4,6 +4,8 @@
   "description": "Show the power of Ontology in the Digital Twins Definition Language universe to build powerful and sustainable devices.",
   "private": true,
   "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/UlisesGascon/POC-azure-IOT-DTDL-ontology/issues"
   },
-  "homepage": "https://github.com/UlisesGascon/POC-azure-IOT-DTDL-ontology#readme"
+  "homepage": "https://github.com/UlisesGascon/POC-azure-IOT-DTDL-ontology#readme",
+  "devDependencies": {
+    "standard": "17.0.0"
+  }
 }
