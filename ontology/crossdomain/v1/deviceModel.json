@@ -1,0 +1,39 @@
+{
+    "@id": "dtmi:digitaltwins:ngsi_ld:ontology:DeviceModel;1",
+    "@type": "Interface",
+    "displayName": "DeviceModel",
+    "contents": [
+        {
+            "@type": "Command",
+            "name": "reboot",
+            "request": {
+              "name": "delay",
+              "schema": "integer"
+            }
+        },
+        {
+            "@type": "Property",
+            "name": "serialNumber",
+            "schema": "string",
+            "description": "A sequence of characters giving the serial number of the device",
+            "writable": true
+        },
+        {
+            "@type": "Property",
+            "name": "deviceModel",
+            "description": "The model of the device",
+            "schema": "string",
+            "writable": true
+        },
+        {
+            "@type": "Property",
+            "name": "dateModified",
+            "schema": "dateTime",
+            "description": "The timestamp when the data was updated",
+            "writable": true
+        }
+    ],
+    "@context": [
+        "dtmi:dtdl:context;2"
+    ]
+}
