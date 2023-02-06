@@ -1,0 +1,26 @@
+{
+    "@id": "dtmi:digitaltwins:ngsi_ld:ontology:temperatureRanges;1",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "displayName": "temperatureRanges",
+    "contents": [
+        {
+            "@type": [
+                "Property",
+                "Temperature"
+            ],
+            "name": "minimumTemperature",
+            "schema": "double",
+            "unit": "degreeCelsius"
+        },
+        {
+            "@type": [
+                "Property",
+                "Temperature"
+            ],
+            "name": "maximumTemperature",
+            "schema": "double",
+            "unit": "degreeCelsius"
+        }
+    ]
+}
