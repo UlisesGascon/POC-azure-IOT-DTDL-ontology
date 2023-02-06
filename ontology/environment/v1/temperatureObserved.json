@@ -1,0 +1,18 @@
+{
+    "@id": "dtmi:digitaltwins:ngsi_ld:ontology:temperatureObserved;1",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "extends": "dtmi:digitaltwins:ngsi_ld:ontology:EnvironmentBaseModel;1",
+    "displayName": "temperatureObserved",
+    "contents": [
+        {
+            "@type": [
+                "Property",
+                "Temperature"
+            ],
+            "name": "temperature",
+            "schema": "double",
+            "unit": "degreeCelsius"
+        }
+    ]
+}
