@@ -1,0 +1,52 @@
+{
+    "@id": "dtmi:digitaltwins:ngsi_ld:ontology:DeviceStatus;1",
+    "@type": "Interface",
+    "displayName": "DeviceStatus",
+    "contents":[
+        {
+            "@type": "Property",
+            "name": "DeviceStatus",
+            "schema": 
+            {
+                "@type": "Enum",
+                "valueSchema": "string",
+                "enumValues": [
+                    {
+                        "name": "operational",
+                        "displayName": "operational",
+                        "description": "A device that is working properly",
+                        "enumValue": "operational"
+                    },
+                    {
+                        "name": "faulty",
+                        "displayName": "faulty",
+                        "description": "A device that is not working properly",
+                        "enumValue": "faulty"
+                    },
+                    {
+                        "name": "updating",
+                        "displayName": "updating",
+                        "description": "A device that is updating its firmware",
+                        "enumValue": "updating"
+                    },
+                    {
+                        "name": "offline",
+                        "displayName": "offline",
+                        "description": "A device that is not connected to the network",
+                        "enumValue": "offline"
+                    },
+                    {
+                        "name": "unknown",
+                        "displayName": "unknown",
+                        "description": "A device that is not connected to the network",
+                        "enumValue": "unknown"
+                    }
+                ]
+            }
+        }
+
+    ],
+    "@context" : [
+        "dtmi:dtdl:context;2"
+    ]
+}
