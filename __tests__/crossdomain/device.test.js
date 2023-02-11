@@ -50,6 +50,11 @@ describe('Crossdomain - device v1', () => {
     expect(deviceStatus.schema.id).toBe('dtmi:digitaltwins:ngsi_ld:ontology:DeviceStatus;1')
   })
 
+  it('Component temperatureObserved v1 should be present as temperature', () => {
+    const { temperature } = deviceModelV1Model.contents
+    expect(temperature.schema.id).toBe('dtmi:digitaltwins:ngsi_ld:ontology:temperatureObserved;1')
+  })
+
   it('Component address v1 should be present', () => {
     const { address } = deviceModelV1Model.contents
     expect(address.schema.id).toBe('dtmi:digitaltwins:ngsi_ld:ontology:Address;1')
