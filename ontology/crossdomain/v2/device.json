@@ -1,7 +1,7 @@
 {
     "@id": "dtmi:digitaltwins:ngsi_ld:ontology:Device;2",
     "@type": "Interface",
-    "displayName": "Device",
+    "displayName": "Device v2",
     "extends": "dtmi:digitaltwins:ngsi_ld:ontology:Device;1",
     "contents": [
         {
