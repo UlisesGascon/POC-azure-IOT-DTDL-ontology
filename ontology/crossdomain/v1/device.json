@@ -1,7 +1,7 @@
 {
     "@id": "dtmi:digitaltwins:ngsi_ld:ontology:Device;1",
     "@type": "Interface",
-    "displayName": "Device",
+    "displayName": "Device v1",
     "contents": [
         {
             "@type": "Command",
@@ -46,6 +46,11 @@
             "@type": "Component",
             "name": "address",
             "schema": "dtmi:digitaltwins:ngsi_ld:ontology:Address;1"
+        },
+        {
+            "@type": "Component",
+            "name": "temperature",
+            "schema": "dtmi:digitaltwins:ngsi_ld:ontology:temperatureObserved;1"
         }
     ],
     "@context": [
