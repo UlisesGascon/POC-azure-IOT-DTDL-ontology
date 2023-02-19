@@ -29,8 +29,7 @@ In summary, ontology is a powerful tool in the Azure Digital Twins Definition La
 ### 📺 Tutorial
 
 
-_soon_
-
+[![Youtube Banner](.github/img/banner.png)](https://www.youtube.com/watch?v=c4PHjFAgcU8)
 
 
 
